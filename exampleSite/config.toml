@@ -5,8 +5,11 @@ copyright = ""
 
 theme = "minimo"
 
-disqusShortname = ""
-googleAnalytics = ""
+[services]
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ""
 
 Paginate = 5
 preserveTaxonomyNames = true
